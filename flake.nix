@@ -126,7 +126,7 @@
       };
 
       # Native Home Manager module.
-      homeManagerModules = {
+      homeModules = {
         nirinit = { config, pkgs, ... }:
           let
             cfg = config.services.nirinit;
